@@ -1,3 +1,13 @@
+# How to run the app 
+1. Create a .env file and add the  following values
+  VITE_FINNHUB_API_KEY = "your api key" eg: cra1hs1r01qhc9u9ah7gcra1hs1r01qhc9u9ah80
+  VITE_FINNHUB_BASE_PATH = https://finnhub.io/api/v1
+
+2. npm install to install all dependencies
+
+3. npm run dev to run the app on local
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
