@@ -1,0 +1,11 @@
+.news-panel {
+  display: flex;
+  background-color: transparent;
+  width: 40vw;
+  overflow: auto;
+  padding: 1rem;
+  max-height: 30rem;
+  overflow-y: scroll;
+  font-size: 1.3rem;
+  &::-webkit-scrollbar { width: 0 !important }
+}
